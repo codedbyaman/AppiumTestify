@@ -1,0 +1,115 @@
+2025-09-23 10:18:36:696 [Appium] Welcome to Appium v3.0.2
+2025-09-23 10:18:36:697 [Appium] Non-default server args:
+2025-09-23 10:18:36:698 [Appium] { address: '127.0.0.1', sessionOverride: true }
+2025-09-23 10:18:36:698 [Appium] The autodetected Appium home path: /Users/zop3722/.appium
+2025-09-23 10:18:36:698 [Appium] Attempting to load driver uiautomator2...
+2025-09-23 10:18:36:699 [Appium] Attempting to load driver xcuitest...
+2025-09-23 10:18:36:699 [Appium] Attempting to load driver espresso...
+2025-09-23 10:18:36:700 [Appium] Requiring driver at /Users/zop3722/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2025-09-23 10:18:37:200 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.501s
+2025-09-23 10:18:37:200 [Appium] Requiring driver at /Users/zop3722/.appium/node_modules/appium-xcuitest-driver/build/index.js
+2025-09-23 10:18:37:818 [Appium] XCUITestDriver has been successfully loaded in 1.119s
+2025-09-23 10:18:37:818 [Appium] Requiring driver at /Users/zop3722/.appium/node_modules/appium-espresso-driver/build/index.js
+2025-09-23 10:18:38:303 [Appium] EspressoDriver has been successfully loaded in 1.604s
+2025-09-23 10:18:38:312 [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+2025-09-23 10:18:38:312 [Appium] Available drivers:
+2025-09-23 10:18:38:312 [Appium]   - uiautomator2@5.0.3 (automationName 'UiAutomator2')
+2025-09-23 10:18:38:312 [Appium]   - xcuitest@10.1.2 (automationName 'XCUITest')
+2025-09-23 10:18:38:312 [Appium]   - espresso@5.0.3 (automationName 'Espresso')
+2025-09-23 10:18:38:312 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2025-09-23 10:18:38:325 [HTTP] --> GET /status 
+2025-09-23 10:18:38:325 [AppiumDriver@108f] Calling AppiumDriver.getStatus() with args: []
+2025-09-23 10:18:38:326 [AppiumDriver@108f] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"3.0.2"}}
+2025-09-23 10:18:38:328 [HTTP] <-- GET /status 200 3 ms - 110 
+2025-09-23 10:18:38:507 [HTTP] Request idempotency key: 54267c76-cf00-4e52-91b4-ab666418acec
+2025-09-23 10:18:38:515 [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:udid":"emulator-5554","appium:deviceName":"Test-Pixel_9a","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"/Users/zop3722/Downloads/AppiumTestify/src/test/resources/ApiDemos-debug.apk"}]}}
+2025-09-23 10:18:38:515 [AppiumDriver@108f] Calling AppiumDriver.createSession() with args: [{"firstMatch":[{"appium:udid":"emulator-5554","appium:deviceName":"Test-Pixel_9a","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"/Users/zop3722/Downloads/AppiumTestify/src/test/resources/ApiDemos-debug.apk"}]},{"firstMatch":[{"appium:udid":"emulator-5554","appium:deviceName":"Test-Pixel_9a","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"/Users/zop3722/Downloads/AppiumTestify/src/test/resources/ApiDemos-debug.apk"}]},{"firstMatch":[{"appium:udid":"emulator-5554","appium:deviceName":"Test-Pixel_9a","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"/Users/zop3722/Downloads/AppiumTestify/src/test/resources/ApiDemos-debug.apk"}]}]
+2025-09-23 10:18:38:516 [AppiumDriver@108f] Event 'newSessionRequested' logged at 1758622718515 (15:48:38 GMT+0530 (India Standard Time))
+2025-09-23 10:18:38:517 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+2025-09-23 10:18:38:517 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2025-09-23 10:18:38:517 [Appium] Will require it at /Users/zop3722/.appium/node_modules/appium-uiautomator2-driver
+2025-09-23 10:18:38:520 [Appium] Requiring driver at /Users/zop3722/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2025-09-23 10:18:38:521 [AppiumDriver@108f] Appium v3.0.2 creating new AndroidUiautomator2Driver (v5.0.3) session
+2025-09-23 10:18:38:521 [AppiumDriver@108f] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2025-09-23 10:18:38:521 [AppiumDriver@108f] Appium's BaseDriver version is 10.0.1
+2025-09-23 10:18:38:521 [AppiumDriver@108f] AndroidUiautomator2Driver's BaseDriver version is 10.0.1
+2025-09-23 10:18:38:521 [AppiumDriver@108f] There are no active sessions for cleanup
+2025-09-23 10:18:38:523 [38;5;-143m[AndroidUiautomator2Driver@1d4c] 
+2025-09-23 10:18:38:523 [38;5;-143m[AndroidUiautomator2Driver@1d4c] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "ANDROID",
+    "appium:udid": "emulator-5554",
+    "appium:deviceName": "Test-Pixel_9a",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "/Users/zop3722/Downloads/AppiumTestify/src/test/resources/ApiDemos-debug.apk"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+2025-09-23 10:18:38:526 [2e1fe126][38;5;-143m[AndroidUiautomator2Driver@1d4c] Session created with session id: 2e1fe126-905a-45aa-b203-8fbd91ca3748
+2025-09-23 10:18:38:532 [2e1fe126][ADB] Found 2 'build-tools' folders under '/Users/zop3722/Library/Android/sdk' (newest first):
+2025-09-23 10:18:38:532 [2e1fe126][ADB]     /Users/zop3722/Library/Android/sdk/build-tools/35.0.0
+2025-09-23 10:18:38:532 [2e1fe126][ADB]     /Users/zop3722/Library/Android/sdk/build-tools/34.0.0
+2025-09-23 10:18:38:532 [2e1fe126][ADB] Using 'adb' from '/Users/zop3722/Library/Android/sdk/platform-tools/adb'
+2025-09-23 10:18:38:533 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2025-09-23 10:18:38:548 [2e1fe126][38;5;-143m[AndroidUiautomator2Driver@1d4c] Retrieving device list
+2025-09-23 10:18:38:549 [2e1fe126][ADB] Trying to find connected Android devices
+2025-09-23 10:18:38:549 [2e1fe126][ADB] Getting connected devices
+2025-09-23 10:18:38:564 [2e1fe126][ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2025-09-23 10:18:38:564 [2e1fe126][38;5;-143m[AndroidUiautomator2Driver@1d4c] Using device: emulator-5554
+2025-09-23 10:18:38:565 [2e1fe126][ADB] Using 'adb' from '/Users/zop3722/Library/Android/sdk/platform-tools/adb'
+2025-09-23 10:18:38:565 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2025-09-23 10:18:38:580 [2e1fe126][ADB] Setting device id to emulator-5554
+2025-09-23 10:18:38:581 [2e1fe126][BaseDriver] Using local app '/Users/zop3722/Downloads/AppiumTestify/src/test/resources/ApiDemos-debug.apk'
+2025-09-23 10:18:38:588 [2e1fe126][38;5;-143m[AndroidUiautomator2Driver@1d4c] Checking whether app is actually present
+2025-09-23 10:18:38:589 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2025-09-23 10:18:38:623 [2e1fe126][ADB] Current device property 'ro.build.version.sdk': 36
+2025-09-23 10:18:38:624 [2e1fe126][ADB] Getting device platform version
+2025-09-23 10:18:38:624 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2025-09-23 10:18:38:647 [2e1fe126][ADB] Current device property 'ro.build.version.release': 16
+2025-09-23 10:18:38:647 [2e1fe126][ADB] Device API level: 36
+2025-09-23 10:18:38:647 [2e1fe126][38;5;-143m[AndroidUiautomator2Driver@1d4c] Relaxing hidden api policy
+2025-09-23 10:18:38:647 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2025-09-23 10:18:38:648 [2e1fe126][38;5;-143m[AndroidUiautomator2Driver@1d4c] Parsing package and activity from the 'ApiDemos-debug.apk' file manifest
+2025-09-23 10:18:38:649 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+2025-09-23 10:18:38:650 [2e1fe126][ADB] Using 'aapt2' from '/Users/zop3722/Library/Android/sdk/build-tools/35.0.0/aapt2'
+2025-09-23 10:18:38:650 [2e1fe126][ADB] Reading package manifest: '/Users/zop3722/Library/Android/sdk/build-tools/35.0.0/aapt2 dump badging /Users/zop3722/Downloads/AppiumTestify/src/test/resources/ApiDemos-debug.apk'
+2025-09-23 10:18:38:662 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+2025-09-23 10:18:38:685 [2e1fe126][ADB] Package name: 'io.appium.android.apis'
+2025-09-23 10:18:38:685 [2e1fe126][ADB] Main activity name: 'io.appium.android.apis.ApiDemos'
+2025-09-23 10:18:38:685 [2e1fe126][38;5;-143m[AndroidUiautomator2Driver@1d4c] Resolved launch package -> activity: io.appium.android.apis -> io.appium.android.apis.ApiDemos
+2025-09-23 10:18:38:685 [2e1fe126][38;5;-143m[AndroidUiautomator2Driver@1d4c] Resolved wait package -> activity: io.appium.android.apis -> io.appium.android.apis.ApiDemos
+2025-09-23 10:18:38:686 [2e1fe126][38;5;-143m[AndroidUiautomator2Driver@1d4c] Pushing settings apk to the device...
+2025-09-23 10:18:38:686 [2e1fe126][ADB] Getting package info for 'io.appium.settings'
+2025-09-23 10:18:38:686 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2025-09-23 10:18:38:769 [2e1fe126][ADB] Reading package manifest: '/Users/zop3722/Library/Android/sdk/build-tools/35.0.0/aapt2 dump badging /Users/zop3722/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2025-09-23 10:18:38:788 [2e1fe126][ADB] The version name of the installed 'io.appium.settings' is equal to application version name (136 === 136)
+2025-09-23 10:18:38:788 [2e1fe126][ADB] There is no need to install/upgrade '/Users/zop3722/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2025-09-23 10:18:38:788 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+2025-09-23 10:18:38:879 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cmd notification allow_listener io.appium.settings/.NLService'
+2025-09-23 10:18:38:880 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell appops set io.appium.settings PROJECT_MEDIA allow'
+2025-09-23 10:18:39:005 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+2025-09-23 10:18:39:030 [2e1fe126][SettingsApp] Starting Appium Settings app
+2025-09-23 10:18:39:030 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start-activity -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER'
+2025-09-23 10:18:39:083 [2e1fe126][38;5;-143m[AndroidUiautomator2Driver@1d4c] Error: Cannot start the 'io.appium.settings' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start-activity -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' exited with code 1'; Command output: Error type 3
+Error: Activity class {io.appium.settings/io.appium.settings.Settings} does not exist.
+
+    at ADB.startApp (/Users/zop3722/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/tools/app-commands.js:844:11)
+    at SettingsApp.requireRunning (/Users/zop3722/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/lib/client.js:81:5)
+    at AndroidUiautomator2Driver.pushSettingsApp (/Users/zop3722/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/device/utils.js:225:5)
+    at AndroidUiautomator2Driver.initDevice (/Users/zop3722/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/device/common.js:228:5)
+2025-09-23 10:18:39:083 [2e1fe126][38;5;-143m[AndroidUiautomator2Driver@1d4c] Deleting UiAutomator2 session
+2025-09-23 10:18:39:083 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+2025-09-23 10:18:39:084 [2e1fe126][38;5;-143m[AndroidUiautomator2Driver@1d4c] Restoring hidden api policy to the device default configuration
+2025-09-23 10:18:39:084 [2e1fe126][ADB] Running '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2025-09-23 10:18:39:239 [2e1fe126][AppiumDriver@108f] Event 'newSessionStarted' logged at 1758622719239 (15:48:39 GMT+0530 (India Standard Time))
+2025-09-23 10:18:39:240 [2e1fe126][AppiumDriver@108f] Encountered internal error running command: Error: Cannot start the 'io.appium.settings' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command '/Users/zop3722/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start-activity -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' exited with code 1'; Command output: Error type 3
+Error: Activity class {io.appium.settings/io.appium.settings.Settings} does not exist.
+
+    at ADB.startApp (/Users/zop3722/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/tools/app-commands.js:844:11)
+    at SettingsApp.requireRunning (/Users/zop3722/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/lib/client.js:81:5)
+    at AndroidUiautomator2Driver.pushSettingsApp (/Users/zop3722/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/device/utils.js:225:5)
+    at AndroidUiautomator2Driver.initDevice (/Users/zop3722/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/device/common.js:228:5)
+2025-09-23 10:18:39:245 [2e1fe126][HTTP] <-- POST /session 500 730 ms - 2595 
+2025-09-23 10:28:22:002 [HTTP] --> GET /status 
