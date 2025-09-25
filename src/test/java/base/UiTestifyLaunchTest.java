@@ -9,18 +9,19 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.File;
-import java.net.MalformedURLException;
 import java.net.URI;
-import java.net.URISyntaxException;
 import java.time.Duration;
 
 public class UiTestifyLaunchTest {
 
+    private final EmulatorManager emulatorManager = new EmulatorManager();
     private AndroidDriver driver;
     private AppiumDriverLocalService service;
 
     @BeforeClass
-    public void setUp() throws URISyntaxException, MalformedURLException {
+    public void setUp() throws Exception {
+
+        emulatorManager.startEmulator("Test-Pixel_9a", 120);
 
         // Start Appium server programmatically
         service = new AppiumServiceBuilder()
@@ -64,5 +65,9 @@ public class UiTestifyLaunchTest {
             service.stop();
             System.out.println("🛑 Appium service stopped");
         }
+
+        // Stop emulator
+//        emulatorManager.stopEmulator();
+//        System.out.println("emulator stopped");
     }
 }
