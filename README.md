@@ -94,10 +94,10 @@ Since this repository is focused on learning Appium from scratch, Appium Inspect
 ### ⚡ Installation & Setup
 
 Download the latest release from Appium Inspector Releases
+ #### https://github.com/appium/appium-inspector/releases
 - Install it on your system (available for macOS, Windows, Linux).
-  ### https://github.com/appium/appium-inspector/releases
 - Configure it with the desired capabilities of your emulator or device.
-  #### refer this in case you need more assistance on appium inspector:-
+- #### refer this in case you need more assistance on appium inspector:-
   #### https://github.com/appium/appium-inspector?tab=readme-ov-file
 - Start your Appium server and connect Inspector to inspect elements.
 👉 Once set up, you can easily copy element locators from Appium Inspector and use them directly in the test cases available in this project.
