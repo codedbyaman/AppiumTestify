@@ -73,7 +73,34 @@ mvn test
 ### 🔰 Beginner  
 - Appium setup & configuration  
 - Launching emulator & app  
-- First test case  
+- First test case
+
+## 🔍 Appium Inspector
+
+Appium Inspector is a powerful desktop application that helps you inspect and interact with mobile app elements. It is widely used by automation testers to:
+
+- Identify UI elements and their attributes
+- Generate XPath and other locator strategies
+- Preview element hierarchy in real-time
+- Validate selectors before using them in test scripts
+
+### ✨ Why it’s important for this project?
+
+Since this repository is focused on learning Appium from scratch, Appium Inspector plays a key role in helping beginners:
+- Understand how mobile elements are structured
+- Quickly build reliable locators
+- Reduce trial-and-error in writing test cases
+
+### ⚡ Installation & Setup
+
+Download the latest release from Appium Inspector Releases
+- Install it on your system (available for macOS, Windows, Linux).
+  ### https://github.com/appium/appium-inspector/releases
+- Configure it with the desired capabilities of your emulator or device.
+  #### refer this in case you need more assistance on appium inspector:-
+  #### https://github.com/appium/appium-inspector?tab=readme-ov-file
+- Start your Appium server and connect Inspector to inspect elements.
+👉 Once set up, you can easily copy element locators from Appium Inspector and use them directly in the test cases available in this project.
 
 ### ⚡ Intermediate  
 - Page Object Model (POM)  
